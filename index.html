@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assingment</title>
+    <style>
+    #box{
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+<div id="box">click me</div>
+ <form id="myForm">
+<input type="text" id="name" placeholder="Enter name">
+<button type="submit">Submit</button>
+</form>
+
+<script>
+   // let a=document.getElementById("box");
+
+    let form=document.getElementById("myform");
+    form.addEventListener("submit" , ()=>{
+        alert("your form has been submited")
+    });
+    /*a.addEventListener("click", () => {
+    a.style.backgroundColor = "orange";
+    });
+     
+    a.addEventListener("dblclick", ()=>{
+    a.style.backgroundColor = "red";
+    });
+
+    a.addEventListener("mouseover", ()=>{
+    a.style.backgroundColor="pink"
+    })
+
+    a.addEventListener("mouseout" ,()=>{
+    a.style.backgroundColor="black"
+    })
+          
+    a.addEventListener("mousedown" ,()=>{
+    a.style.backgroundColor="blue"
+    })
+     
+    a.addEventListener("mouseup",()=>{
+    a.style.backgroundColor="green"
+    })
+
+    a.addEventListene("mousemove",()=>{
+    a.innerHTML="hiiii"
+    })*/
+</script>
+</body>
+</html>
